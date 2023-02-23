@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .route-active {
+    @apply text-white bg-indigo-700 md:text-indigo-700;
+  }
+  .btn {
+    @apply focus:ring-4 font-medium rounded-lg text-sm px-5 py-2.5 focus:outline-none;
+  }
+  .btn-indigo {
+    @apply text-white bg-indigo-700 hover:bg-indigo-800  focus:ring-indigo-300  dark:bg-indigo-600 dark:hover:bg-indigo-700 dark:focus:ring-indigo-800;
+  }
+  .btn-indigo-disabled {
+    @apply text-white bg-indigo-400 dark:bg-indigo-500 cursor-not-allowed hover:bg-indigo-400 hover:dark:bg-indigo-500 focus:bg-indigo-400 focus:dark:bg-indigo-500;
+  }
+  .btn-red {
+    @apply text-white bg-red-600 hover:bg-red-700  focus:ring-red-300  dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-800;
+  }
+  .btn-red-disabled {
+    @apply text-white bg-red-400 dark:bg-red-500 cursor-not-allowed hover:bg-red-400 hover:dark:bg-red-500 focus:bg-red-400 focus:dark:bg-red-500;
+  }
+}

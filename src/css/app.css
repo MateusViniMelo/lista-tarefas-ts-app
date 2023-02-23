@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+    .route-active{
+        @apply bg-indigo-700 md:text-indigo-800 text-white
+    }
+}
