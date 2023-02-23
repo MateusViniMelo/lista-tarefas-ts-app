@@ -1,6 +1,6 @@
 <template>
   <div
-    class="w-full p-3 py-4 bg-white border border-gray-200 rounded-lg  dark:bg-gray-800 dark:border-gray-700 flex justify-between items-center">
+    class="w-full p-3 py-4 bg-white border border-gray-200 rounded-lg  dark:bg-gray-700 dark:border-gray-600 flex justify-between items-center">
 
     <div class="font-normal text-gray-700 dark:text-gray-400 flex justify-center" v-if="!editTarefa">
       <span role="status" v-if="changingStatus">
@@ -29,11 +29,11 @@
       </form>
 
     </div>
-    <span>
+    <span class="dark:text-gray-400">
       <button type="button"
-        :class="`bi bi-pencil-square mr-3 cursor-pointer${editTarefa ? ` text-blue-500` : ` hover:text-blue-500`}`"
+        :class="`bi bi-pencil-square mr-3  cursor-pointer${editTarefa ? ` text-blue-500` : ` hover:text-blue-500`}`"
         @click="editarStatusTarefa"></button>
-      <button type="button" class="bi bi-trash mr-3 hover:text-red-500 cursor-pointer" @click="mudarModal"></button>
+      <button type="button" class="bi bi-trash mr-3 hover:text-red-500 cursor-pointer " @click="mudarModal"></button>
     </span>
     <TarefaDeleteModal :tarefa="tarefa" :open="mostrarModal" :key="tarefa.id" @closeModal="mudarModal">
     </TarefaDeleteModal>

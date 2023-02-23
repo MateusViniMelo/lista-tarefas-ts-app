@@ -1,5 +1,5 @@
 <template>
-  <div >
+  <div class="">
 
     <header-app></header-app>
     <div class="container mx-auto">
@@ -11,14 +11,12 @@
 <script lang="ts">
 import { defineComponent } from 'vue';
 
+
 import HeaderApp from './components/HeaderApp.vue';
 export default defineComponent({
   name: "App",
-  components: { HeaderApp }
+  components: { HeaderApp },
+  
 })
 </script>
-<style>
-body {
-  background-color: rgb(249 250 251);
-}
-</style>
+<style></style>
