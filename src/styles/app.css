@@ -21,4 +21,5 @@
   .btn-red-disabled {
     @apply text-white bg-red-400 dark:bg-red-500 cursor-not-allowed hover:bg-red-400 hover:dark:bg-red-500 focus:bg-red-400 focus:dark:bg-red-500;
   }
+  
 }

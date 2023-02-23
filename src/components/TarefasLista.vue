@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full md:w-1/2 lg:w-1/3">
+    <div class="w-full md:w-1/2 lg:w-1/3 mb-40">
         <div role="status" v-if="tarefasIsLoading">
             <svg aria-hidden="true" 
                 class="w-1/6 h-1/6  xl:w-1/12 xl:h-1/12 mx-auto text-gray-200 animate-spin dark:text-gray-600 fill-blue-600 mb-5"

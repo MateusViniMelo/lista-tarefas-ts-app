@@ -6,16 +6,11 @@
       </div>
     </div>
     <div class="flex justify-center mt-5 mx-4">
-
       <tarefas-lista></tarefas-lista>
     </div>
 
 
   </div>
-
-
-  <!-- Modal toggle -->
-  <button class="btn bg-blue-500 text-white" @click="mostrarModal = !mostrarModal">asdas </button>
 </template>
 
 <script lang="ts">
@@ -28,9 +23,7 @@ import { defineComponent } from 'vue';
 export default defineComponent({
   components: { TarefasLista, TarefaForm },
   name: 'HomeView',
-  data: () => ({
-    mostrarModal: false
-  })
+
 
 
 });

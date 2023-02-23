@@ -27,7 +27,6 @@
                                         <div class="mt-2">
                                             <p class="text-sm text-gray-500">Você tem certeza que deseja excluir a tarefa de
                                                 nome <span class="font-bold">{{ tarefa.titulo }}</span>?</p>
-
                                         </div>
                                     </div>
                                 </div>

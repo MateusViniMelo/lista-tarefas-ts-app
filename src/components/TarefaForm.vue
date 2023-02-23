@@ -11,7 +11,7 @@
                 class="block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-white focus:ring-indigo-500 focus:border-indigo-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-indigo-500 dark:focus:border-indigo-500 "
                 placeholder="Adicionar tarefa." required v-model="tarefa.titulo">
             <button type="submit" :disabled="tarefaIsSubmitting"
-                :class="tarefaIsSubmitting ? 'absolute right-2.5 bottom-2.5 btn btn-indigo px-4 py-2 btn-indigo-disabled' : 'absolute right-2.5 bottom-2.5 btn btn-indigo px-4 py-2'">
+                :class="tarefaIsSubmitting ? 'absolute right-2.5 bottom-2.5 btn btn-indigo px-4 py-2 btn-indigo-disabled inline-flex items-center' : 'absolute right-2.5 bottom-2.5 btn btn-indigo px-4 py-2 inline-flex items-center'">
                 <span v-if="tarefaIsSubmitting">
                     <svg aria-hidden="true" role="status" class="inline w-4 h-4 mr-2 text-white animate-spin"
                         viewBox="0 0 100 101" fill="none" xmlns="http://www.w3.org/2000/svg">
